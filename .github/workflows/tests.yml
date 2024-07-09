@@ -26,3 +26,6 @@ jobs:
     - name: Test with tox
       run: |
         python -m tox -c tox.ini
+    - name: Hostname
+      run: |
+        python
